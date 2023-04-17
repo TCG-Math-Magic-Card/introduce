@@ -1,7 +1,7 @@
 # TCG Math Magic Card Desgin
 [中文](/README_CN.md)
 
-I have invented a tabletop game that I think is cool, but my resources and abilities are limited. I hope to develop and grow it through the community. If you are interested, please read and join in.[Join Discard](https://discord.gg/dfTFBYvS)
+I have invented a tabletop game that I think is cool, but my resources and abilities are limited. I hope to develop and grow it through the community. If you are interested, please read and join in.[![Discord](https://img.shields.io/discord/808315755460165683?color=6A7EC2&label=&logo=discord&logoColor=ffffff&labelColor=4e5af0&style=for-the-badge)](https://discord.gg/dfTFBYvS)
 
 - Q: What is TGC?
   - A: TCG stands for Trading Card Game, which refers to a type of game where players use their own card combinations to compete against other players. Each card represents different characters, abilities, or equipment, and can be obtained by purchasing card packs or trading with other players to enrich their card collections and improve their strength in the game. Well-known TCG games include Magic: The Gathering, Hearthstone, Yu-Gi-Oh!, etc.
