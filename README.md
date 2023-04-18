@@ -1,5 +1,5 @@
 # TCG Math Magic Card Desgin
-![Card Temp](.[pic/Card_temp.jpg])
+![Card Temp](./pic/Card_temp.jpg)
 
 [中文](/README_CN.md)/English
 

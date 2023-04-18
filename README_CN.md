@@ -1,5 +1,5 @@
 # TCG数学魔法卡设计
-![Card Temp](.[pic/Card_temp.jpg])
+![Card Temp](./pic/Card_temp.jpg)
 
 中文/[English](/README.md)
 
