@@ -1,6 +1,7 @@
 # TCG数学魔法卡设计
+![Card Temp](.[pic/Card_temp.jpg])
 
-[English](/README.md)
+中文/[English](/README.md)
 
 我发明了一种桌面游戏。我觉得很酷，而且我的精力和能力有限。我希望通过社区来发展和壮大他。如果你感兴趣请阅读并加入进来。[加入Discard](https://discord.gg/9xUGkcg3)
 

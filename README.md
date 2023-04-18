@@ -1,5 +1,7 @@
 # TCG Math Magic Card Desgin
-[中文](/README_CN.md)
+![Card Temp](.[pic/Card_temp.jpg])
+
+[中文](/README_CN.md)/English
 
 I have invented a tabletop game that I think is cool, but my resources and abilities are limited. I hope to develop and grow it through the community. If you are interested, please read and join in.[Discord](https://discord.gg/dfTFBYvS)
 
