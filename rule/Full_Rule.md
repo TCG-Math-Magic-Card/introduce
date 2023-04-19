@@ -168,3 +168,23 @@ Setting the "operator-value" operation.
 - Activating a Legendary Card. According to the effect of the card, place it in the Legendary Card area and activate its effect.
 - There are only four card slots in each Legendary Card area. When all four slots are occupied, if you want to activate a new Legendary Card, you need to discard one of the existing Legendary Cards to the top of the discard pile before activating the new one.
 - Rainbow Legendary Cards are not bound by the Legendary Card position restrictions.
+
+## End of Game Scoring
+This is the last topic of this game, understanding the way of final calculation can help you make better decisions during the game.
+
+- The value of a lane. The calculation of values and operators in a lane is done in one direction, ultimately resulting in a value or function known as the value of the lane.
+-  The calculation of a private lane is done from left to right.
+-  The calculation of a public lane is done by calculating the combined VP of the assertion cards in both sides of the public lane. The calculation is done from the small end to the large end.
+-  If the combined VP of assertion cards in both sides of a public lane is equal, then the player going second gets to choose the calculation order.
+-   A calculation composed of the value of a lane and the assertion area is called a calculation combination
+-   Each player's victory points are determined by three calculation combinations.
+    - Private lane + public assertion area: If an assertion is incorrect, it must be dealt with.
+    - Public lane + private assertion area: If an assertion is incorrect, it must be dealt with.
+    - Private lane + private assertion area: Incorrect assertions can be ignored and only the correct ones recorded.
+-  When calculating in a lane, what to do with an empty position depends on the situation
+   -  If a value cannot be calculated, then no calculation combination judgment will be made.
+   -  Calculation is only performed when a value can be formed.
+- Each player can specify the calculation order in a lane value calculation using operator language, but they can only declare it once.
+- The responsibility for ensuring the correctness of necessary assertions falls on the opponent, and it is the player's responsibility to supervise
+-  The player is responsible for ensuring the correctness of assertions that can be ignored, and the opponent is responsible for supervising.
+- When both sides cannot prove the truth or falsehood of an assertion, the game should be judged as a draw until such time as the assertion can be proved true or false.
