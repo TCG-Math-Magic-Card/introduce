@@ -100,3 +100,71 @@ These colors only represent the basic functions of general cards, and there may 
 > PS: The female character on the top of the card has no correlation with the game. The design of the card is temporary and only needs to reflect the necessary information.
 
 ### Card Introduction
+
+The following explains how to use the card.
+
+---
+
+#### Value Card
+- Set Value Card.The operation of set a value card is to show a value card from your hand, place it face up in the value area, and treat it as if it has been set.
+- There can only be one value card in each value area at most.
+- Each time the value card is setted, it can only be setted "nearest".
+- "Nearest" placement means that the value card can only be placed from left to right. In addition, except for the first value area from the left, which can be placed directly, when placing a value card in other areas, it must be ensured that the left side of the area has been filled with cards.
+- Because you and your opponent face each other, your opponent places cards from right to left while you place cards from left to right. The result is a shared lane for both of you to place cards in opposite directions.
+- Move Value Card. The operation of moving the value card is to select a value card you placed and move it parallelly down or up one lane to the value area of another lane.
+-  You can only choose the cards you set up in your private lane and public lane to move them to your adjacent private lane. That is to say, you cannot move cards from your private lane to the public lane.
+-  In general, you cannot move a card when there are cards in the adjacent lanes.
+-  When moving cards, you do not need to follow the "nearest" principle.
+- You can only place a value card or move a value card once per turn.
+- After setting the value, you cannot have both the set operator and the value card in the public lane in the same turn.
+
+--- 
+
+#### Operator Card
+- Placing an operator card. The operation of placing an operator card is to show one operator card in your hand, place it with the front side up on the value area, and regard it as setting an operator.
+- There can be at most one operator card in each operator area.
+- Each time an operator is placed, it can only be placed "nearest".
+- you can only place one operator per turn.
+- After setting an operator, you cannot have both the set operator and value card in the public lane in the same turn.
+- The operator card follows the operator language: `?` indicates that the order can be exchanged, which can benefit oneself in interpretation. `L/R` indicates left and right expressions, and the order cannot be changed. See "Calculating the Value of a Lane" for specific usage.
+
+--- 
+
+#### Assertion Card
+
+- Setting an assertion card. The assertion card is placed face up in the private or public assertion area.
+- Each turn, a maximum of one assertion card can be placed in both the public and private assertion areas.
+- Both public assertion areas can be used for placing assertion cards. However, a maximum of one assertion card can be placed in each public assertion area per turn.
+- After an assertion card is placed, its effect can be activated based on the description of the assertion card.
+
+---
+
+#### Function Card
+
+Function cards are the most complex and flexible cards in the game. They mainly have three possible ways of use:
+
+- Temporary Calculation of Functions
+- Using Function Effects
+- Setting the "operator-value" operation.
+
+Temporary Calculation of Functions
+- Temporary Calculation of Functions. When using this function, you can find any value or operator on the field as long as its value is used as an input parameter for the function. If the output parameter matches, remove these values immediately and gain the pseudo-victory points marked on the function card (which can usually be counted by a 20-sided die).
+- Using the temporary calculation of functions is a good way to remove cards from the field.
+- Any card can be treated as a value card. This can include cards on your own field or on your opponent's field.
+- After use, the function card is discarded, and the value cards used as input parameters and output parameters are discarded in the order of appearance. (If it's an opponent's card, it goes to their discard pile.)
+- The order of cards in the discard pile is fixed, and effects that allow you to retrieve cards from the discard pile do not change the order of the discarded cards.
+
+Using Function Effects
+- The function card must be marked with green to use its effect.
+- This card can be used between phases. Use the effect described on the card. If the effect cannot be activated, treat it as using a function card and discard it to the top of the discard pile.
+- Traditionally, when you want to use a function card that has nothing to do with mathematics, you need to say to your opponent "Sorry bro, I'm going to use pure magic from the math magic card!"
+
+Setting the "operator-value" operation.
+- Setting an operator/value operation is considered as placing a value card and an operator card in the lane at the same time (which means that this cannot be done in the public lane based on previous restrictions). When using this feature, the function card should be placed horizontally between the operator and value positions, starting from the operator position. It represents using the preceding value as the input parameter of the function, and the calculated result as the value of the subsequent item. For example, if you use the function "y = 3x" to place an operator-value operation with the value of 3, in the assertion calculation it will be represented as "3 * 3 = 9", and the left expression of the next operator will start with 9.
+
+---
+
+#### Legend Card
+- Activating a Legendary Card. According to the effect of the card, place it in the Legendary Card area and activate its effect.
+- There are only four card slots in each Legendary Card area. When all four slots are occupied, if you want to activate a new Legendary Card, you need to discard one of the existing Legendary Cards to the top of the discard pile before activating the new one.
+- Rainbow Legendary Cards are not bound by the Legendary Card position restrictions.
