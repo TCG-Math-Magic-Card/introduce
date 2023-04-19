@@ -63,5 +63,40 @@ The usage of each type of card is relatively complicated and will be introduced 
 ## Game Field
 The game field consists of lanes (public/private), value area, operator area, assertion area (public/private), and legend area as shown in the following figure:
 ![Case](../pic/Case.jpg)
+- The five areas enclosed by the dotted lines above are arranged in a row (alternating between value and operator areas, for a total of 5), and are called lanes.
+- There are a total of 5 lanes. The light-colored one in the middle is the public lane, and the rest are private lanes. There is only one public lane, and each player has two private lanes.
+- The yellow area is the value area, typically used to place value cards.
+- The blue area is the operator area, typically used to place operator cards.
+- The red and light-red areas are the assertion area. The ones on both sides of the public lane are the public assertion area, with one on the left and one on the right. Each player only has one private assertion area.
+- The orange area is the legend card area. The legend card area can hold up to four legend cards.
 
+With the above concepts, we can better understand the cards and their corresponding operations.
 
+## Cards and their usage methods.
+
+### Colors and Types of Cards.
+he type and function of a card is determined by its color. The basic colors are as follows
+- Value card: Yellow.
+- Operator card: Blue.
+- Assertion card: Red
+- Function card: Green.
+- Legend card: Orange.
+
+These colors only represent the basic functions of general cards, and there may be special mixed colors indicating combined functions.
+- Yellow/Red: Can be considered as both value cards and assertion cards.
+- Blue/Yellow: Function cards can be used not only for temporary function calculation, but also for setting up “operator-value” on function cards. However, they cannot be used for function effects (see function cards for details).
+- Blue/Green/Yellow: Function cards can be used not only for temporary function calculation and setting up “operator-value” on function cards, but also for using function effects (see function cards for details).
+- Rainbow color: Generally appears on legend cards and can be used as a card for effect description.
+
+### Card Field.
+![Card Temp](../pic/Card_temp.jpg)
+- Name of card.
+- Card Formula.Regardless of the name of the card, the corresponding values in the formula are the main factors in the 'End of Game Scoring'.
+- Card Category List. Represents a property of cards. Some effects are targeted towards this property.
+- Effect description：There is a triggering timing and effect mentioned above.
+- Card color. See “Colors and Types of Cards”. It determines what operations can be performed on the card.
+- VP,DP: Victory points and defeat points. These are values that only assertion cards have.
+
+> PS: The female character on the top of the card has no correlation with the game. The design of the card is temporary and only needs to reflect the necessary information.
+
+### Card Introduction

@@ -24,7 +24,7 @@ The concept of an Operator may not be common in your daily life, but you certain
 ## Assertion cards
 An Assertion card contains a statement describing a mathematical concept, such as "this is an even number" or "this is an odd number". We can obtain a value through an expression formed by Value cards and Operator cards, and then use our mathematical knowledge to determine the truth or falsehood of the assertion. For example, `1+1 | is odd` and `1+1 | is even`. We know that the first combination is false and the second combination is true.
 
-The assertion card states that in addition to the assertion itself, there are two very important things on the card: victory points(VP) and failure points(FP). What are these values used for? They are used to determine which side wins or loses the game in the end. For each true combination, your final victory points will be increased by the victory points on that assertion card. Conversely, if it is false, points will be deducted. The person with the most victory points at the end wins, or it's a tie.
+The assertion card states that in addition to the assertion itself, there are two very important things on the card: victory points(VP) and defeat points(DP). What are these values used for? They are used to determine which side wins or loses the game in the end. For each true combination, your final victory points will be increased by the victory points on that assertion card. Conversely, if it is false, points will be deducted. The person with the most victory points at the end wins, or it's a tie.
 
 
 ## Play The Game
@@ -39,7 +39,7 @@ In addition, you can also place an assertion card in your own assertion area. Th
 ## Determining the end and victory/defeat.
 So how do you determine when the game ends and who wins? At the end of each turn, you need to check whether all five areas in the lanes are filled with cards. If the lanes are full, the game ends, and it's time to determine the winner.
 
-As mentioned above, you need to calculate the value formed by the values and operators in the lanes. Then each player uses this value and combines it with each assertion card in their own assertion area. If an assertion is true, victory points are added (VP), and if an assertion is false, victory points are subtracted (FP). Then compare which player has more victory points, and the player with more points wins.
+As mentioned above, you need to calculate the value formed by the values and operators in the lanes. Then each player uses this value and combines it with each assertion card in their own assertion area. If an assertion is true, victory points are added (VP), and if an assertion is false, victory points are subtracted (DP). Then compare which player has more victory points, and the player with more points wins.
 
 It sounds simple, doesn't it? In the game, you need to predict possible values in the lanes and plan your assertion strategy carefully. Setting too many assertions may actually lead to failure.
 
